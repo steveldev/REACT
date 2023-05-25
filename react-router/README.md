@@ -3,7 +3,8 @@
 
 
 # index.js
-```import {BrowserRouter} from "react-router-dom";
+```
+import {BrowserRouter} from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
@@ -14,7 +15,8 @@ root.render(
 ```
 
 # App.js
-```import {Routes, Route} from "react-router-dom"
+```
+import {Routes, Route} from "react-router-dom"
 function App() {
   return (
     <div className="App">   
@@ -34,7 +36,8 @@ export default App
 ```
 
 # Navbar.js
-```import {Link} from "react-router-dom"
+```
+import {Link} from "react-router-dom"
 export default function Navbar() {
     return (
         <nav className="navbar navbar-dark bg-dark">
