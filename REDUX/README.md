@@ -27,7 +27,8 @@ export default combineReducers({
 ``
 
 ## ./src/reducers/post.reducer.js
-``const initialState = {}
+``
+const initialState = {}
 export default function postReducer(state = initialState, action) {
     switch(action.type) {
         case "GET_POSTS":
@@ -52,7 +53,8 @@ export const getPosts = () => {
 }``
 
 ## App.js
-``return
+``
+return
 <div className="posts">
    {posts.map(post => (  
       <h1>{post.title}</h1>
