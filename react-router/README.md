@@ -30,7 +30,7 @@ function App() {
     </div>
   )   
 }
-export default App;```
+export default App```
 
 ## Navbar
 ```import {Link} from "react-router-dom"
