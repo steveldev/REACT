@@ -3,7 +3,6 @@
 
 ## index.js
 ``
-//...
 import {Provider} from "react-redux"
 import {configureStore} from "@reduxjs/toolkit"
 import rootReducer from './reducers'
@@ -39,7 +38,7 @@ export default function postReducer(state = initialState, action) {
 }``
   
 ## ./src/actions/post.action.js
-export const GET_POSTS = "GET_POSTS"
+``export const GET_POSTS = "GET_POSTS"
 export const getPosts = () => {
     return (dispatch) => {
         fetch("https://jsonplaceholder.typicode.com/posts")
@@ -50,13 +49,13 @@ export const getPosts = () => {
             dispatch({ type: GET_POSTS, payload: data})
         })
     }
-}
+}``
 
 ## App.js
-return
+``return
 <div className="posts">
    {posts.map(post => (  
       <h1>{post.title}</h1>
       <div className="post-content">{post.body}</div>
   ))}
-</div>
+</div>``
