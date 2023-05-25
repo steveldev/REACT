@@ -1,4 +1,5 @@
-# Install
+# REDUX
+## Install
 ``npm i -s redux react-redux @reduxjs/toolkit @redux-devtools/extension``
 
 ## index.js
