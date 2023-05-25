@@ -15,8 +15,7 @@ root.render(
 );```
 
 ## App.js
-```
-import {Routes, Route} from "react-router-dom"
+``` import {Routes, Route} from "react-router-dom"
 function App() {
   return (
     <div className="App">   
