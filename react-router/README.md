@@ -2,7 +2,7 @@
 ``npm install react-router-dom``
 
 
-index.js
+# index.js
 ```import {BrowserRouter} from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,7 +13,7 @@ root.render(
   </BrowserRouter>
 ```
 
-App.js
+# App.js
 ```import {Routes, Route} from "react-router-dom"
 function App() {
   return (
@@ -33,7 +33,7 @@ function App() {
 export default App
 ```
 
-Navbar.js
+# Navbar.js
 ```import {Link} from "react-router-dom"
 export default function Navbar() {
     return (
