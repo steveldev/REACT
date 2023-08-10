@@ -1,2 +1,2 @@
 # REACT
-REACT JS
+npx create-react-app my-app
